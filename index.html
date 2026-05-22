@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azhar Ali | Portfolio & Tech Blog</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #0f172a; color: #f8fafc; line-height: 1.6; }
+        header { background: #1e293b; padding: 20px; text-align: center; border-bottom: 2px solid #3b82f6; }
+        h1 { color: #3b82f6; font-size: 2rem; margin-bottom: 5px; }
+        .subtitle { color: #94a3b8; font-size: 1rem; }
+        .container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+        section { background: #1e293b; padding: 25px; border-radius: 8px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        h2 { color: #3b82f6; margin-bottom: 15px; border-bottom: 1px solid #334155; padding-bottom: 5px; }
+        .btn { display: inline-block; background: #3b82f6; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-top: 10px; transition: 0.3s; }
+        .btn:hover { background: #2563eb; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        @media(max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+        .project-card, .blog-card { background: #0f172a; padding: 15px; border-radius: 6px; border: 1px solid #334155; }
+        .price { color: #10b981; font-weight: bold; }
+        footer { text-align: center; padding: 20px; color: #64748b; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Azhar Ali</h1>
+        <p class="subtitle">Web Developer | Finance & Marketing Specialist</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my professional space. I build high-performance websites and combine technical coding skills with modern marketing strategy and financial insight to deliver complete business solutions online.</p>
+            <a href="mailto:your-email@example.com" class="btn">Hire Me / Get a Quote</a>
+        </section>
+
+        <section id="services">
+            <h2>Web Development Services</h2>
+            <div class="grid">
+                <div class="project-card">
+                    <h3>E-Commerce Web Setup</h3>
+                    <p>Complete stores built using modern structures optimized for fast loading and sales conversions.</p>
+                    <p class="price">Starting from $150</p>
+                </div>
+                <div class="project-card">
+                    <h3>Business & Portfolio Sites</h3>
+                    <p>Clean, fully responsive single-page layouts designed to showcase professional services cleanly.</p>
+                    <p class="price">Starting from $80</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Tech & Tool Recommendations</h2>
+            <p style="margin-bottom: 15px; color: #94a3b8;">Discover the optimized frameworks, hosting configurations, and platforms I use daily to build digital assets.</p>
+            <div class="blog-card">
+                <h3>Top High-Performance Web Tools</h3>
+                <p>An in-depth review of layout frameworks, hosting speeds, and modern affiliate store tools for running digital businesses smoothly.</p>
+                <a href="#" style="color: #3b82f6; display: inline-block; margin-top: 10px;">Read Full Review &rarr;</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Azhar Ali. Hosted entirely for free on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
